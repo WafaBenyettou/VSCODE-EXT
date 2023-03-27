@@ -1,0 +1,36 @@
+{
+    "React Native Button Component": {
+        "prefix": "rnbutton",
+        "body": [
+          "import React from 'react';",
+          "import { TouchableOpacity, Text, StyleSheet } from 'react-native';",
+          "",
+          "const ${1:Button} = ({ title, onPress }) => {",
+          "  return (",
+          "    <TouchableOpacity onPress={onPress} style={styles.button}>",
+          "      <Text style={styles.buttonText}>{title}</Text>",
+          "    </TouchableOpacity>",
+          "  );",
+          "};",
+          "",
+          "const styles = StyleSheet.create({",
+          "  button: {",
+          "    backgroundColor: '${2:blue}',",
+          "    paddingVertical: ${3:10},",
+          "    paddingHorizontal: ${4:20},",
+          "    borderRadius: ${5:5},",
+          "  },",
+          "  buttonText: {",
+          "    color: '${6:white}',",
+          "    fontSize: ${7:18},",
+          "    fontWeight: '${8:bold}',",
+          "    textAlign: '${9:center}',",
+          "  },",
+          "});",
+          "",
+          "export default ${1:Button};"
+        ],
+        "description": "React Native button component with styles."
+      }
+      
+}
