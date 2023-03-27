@@ -1,6 +1,7 @@
-# wafa-s-snippets- README
+# wafa-s-snippets README
 
 This is the README for your extension "wafa-s-snippets-". After writing up a brief description, we recommend including the following sections.
+Wafa is just testing
 
 ## Features
 
